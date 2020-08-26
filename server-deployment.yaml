@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: backendws
-  namespace: backend
 spec:
   replicas: 1
   revisionHistoryLimit: 10
